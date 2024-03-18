@@ -104,12 +104,30 @@ article {
     padding: 10px;
     margin: 10px;
     font-family: sans-serif;
+    line-height: 2;
+    
 }
 
 .tekstboks3 {
-    margin-left: auto;
-    width: 50%;
+    margin-left: 20px;
+    padding: 10px;
+    width: 45%;
+    color: #CB6CE6;
+    background-color: #FFDE59;
+    font-size: 25px;
+    font-family: sans-serif;
+    float: right;
+
 }
+
+
+
+
+
+
+
+
+
 
 
 /*styling af siden opskrifter*/
