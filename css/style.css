@@ -95,7 +95,7 @@ padding: 0;
 .dropdown-content:hover {
     display: block;
 }
-
+/* styling af artiklerne på forside */
 article {
     color: #CB6CE6;
     background-color: #FFDE59;
@@ -109,7 +109,6 @@ article {
 .tekstboks3 {
     margin-left: auto;
     width: 50%;
-
 }
 
 
@@ -177,3 +176,6 @@ article {
     font-size: 20px;
     text-align: center;
 }
+
+
+
