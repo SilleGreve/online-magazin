@@ -164,10 +164,15 @@ aside {
     float: left;
     font-family: sans-serif;
     line-height: 2;
-
 }
 
+.img-garnkvaliteter {
+    width: 25%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
 
+}
 
 /*styling af min tekst på siden perlestrik og tern */
 #overskrift {
