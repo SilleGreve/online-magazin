@@ -9,6 +9,11 @@ header {
     justify-content: center;
     padding: 40px;
 }
+
+.heading-p {
+    margin: 0px;
+    padding: 0px;
+}
 /*Her styler jeg overskriften i perlestrik*/
 header a {
 color: #FFDE59;
@@ -91,7 +96,7 @@ padding: 0;
     display: block;
 }
 
-fieldset {
+article {
     color: #CB6CE6;
     background-color: #FFDE59;
     font-size: 25px;
@@ -99,7 +104,18 @@ fieldset {
     padding: 10px;
     margin: 10px;
     font-family: sans-serif;
+    border: 1px solid #000;
 }
+
+/* fieldset {
+    color: #CB6CE6;
+    background-color: #FFDE59;
+    font-size: 25px;
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+} */
 .tekstboks3 {
     margin-left: auto;
     width: 50%;
