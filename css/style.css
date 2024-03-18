@@ -1,0 +1,173 @@
+
+/*Her styler jeg min header forside*/
+header {
+    background-color: #CB6CE6;
+    color: #FFDE59;
+    font-size: 70px;
+    font-family: MayaOphelia;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+/*Her styler jeg overskriften i perlestrik*/
+header a {
+color: #FFDE59;
+text-decoration: none;
+}
+
+
+/* Her styler jeg størrelsen på billedet*/
+.image {
+width: 100%;
+height: 400px;
+margin: 0px;
+padding: 0;
+}
+
+/* styling af placering af navbar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px; 
+    background-color: #CB6CE6;
+    position: fixed;
+   top: 0;
+   right: 0;
+}
+
+
+/*styling af links i navbar*/
+.navbar li {
+    border-bottom: 1px solid #CB6CE6;
+}
+
+.navbar li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFDE59;
+    font-family: sans-serif;
+}
+
+.navbar li a:hover {
+    background-color: #CB6CE6;
+}
+
+/* Styling af dropdown*/
+.dropdown {
+    position: relative;
+}
+/*Styling af dropdown kanp*/
+.dropdown .dropbtn {
+    display: block;
+}
+/*Styling af indholdet i dropdown*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    background-color: #CB6CE6;
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+/*Styling af links inde i dropdown indholdet*/
+.dropdown-content a {
+    color: #FFDE59;
+    padding: 10px 20 px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Gør så undermenuerne ikke forsvinder når man kører musen hen for at komme videre på hjemmesiden*/
+.dropdown-content:hover {
+    display: block;
+}
+
+fieldset {
+    color: #CB6CE6;
+    background-color: #FFDE59;
+    font-size: 25px;
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.tekstboks3 {
+    margin-left: auto;
+    width: 50%;
+
+}
+
+
+/*styling af siden opskrifter*/
+.container {
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+
+.perlestrik {
+    width: 50%;
+    float: left;
+    padding-right: 60px;
+}
+
+.container2 {
+    overflow: hidden;
+    font-family: sans-serif;
+    
+}
+
+.tern {
+    float: right;
+    width: 50%;
+    padding: 0;
+    padding-left: 60px;
+}
+
+.container3 {
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.kombination {
+    float: left;
+    width: 50%;
+    padding-right: 60px;
+}
+
+/* Styling af siden garnkvaliteter*/
+.center {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
