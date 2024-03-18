@@ -179,3 +179,37 @@ article {
 
 
 
+#overskrift {
+    height: 50px;
+    display: flex;
+    flex-flow: column-reverse wrap;
+  }
+  #overskrift h2 {
+    width:300px;
+    height:10px;
+    padding:0px;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+
+
+#mymain {
+  height:300px;
+  background-color:#FFF;
+}
+#mysection {
+  height: 100px;
+  display: flex;
+  flex-flow: column-reverse wrap;
+}
+#mysection p {
+  width:200px;
+  height:60px;
+  padding:5px;
+  font-family: sans-serif;
+}
+
+.img-diagram {
+    width: 200%;
+    
+}
