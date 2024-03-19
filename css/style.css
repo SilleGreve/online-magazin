@@ -4,7 +4,7 @@ header {
     background-color: #CB6CE6;
     color: #FFDE59;
     font-size: 70px;
-    font-family: MayaOphelia;
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     padding: 40px;
@@ -13,6 +13,7 @@ header {
 .heading-p {
     margin: 0px;
     padding: 0px;
+    font-family: MayaOphelia;
 }
 /*Her styler jeg overskriften i perlestrik*/
 header a {
