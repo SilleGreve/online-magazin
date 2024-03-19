@@ -82,7 +82,7 @@ padding: 0;
 /*Styling af links inde i dropdown indholdet*/
 .dropdown-content a {
     color: #FFDE59;
-    padding: 10px 20 px;
+    padding: 10px 20px;
     text-decoration: none;
     display: block;
 }
@@ -103,10 +103,11 @@ padding: 0;
     padding-left: 15px;
     margin-left: 15px;
     margin: 20px;
+    padding: 50px;
     float: right;
     background-color: #FFDE59;
     color: #CB6CE6;
-    font-size: 25px;
+    font-size: 30px;
     font-family: sans-serif;
 }
 
@@ -155,6 +156,7 @@ padding: 0;
     text-align: center;
     font-family: sans-serif;
     padding: 0px;
+    line-height: 2;
 }
 
 aside {
@@ -189,7 +191,7 @@ aside {
     font-family: sans-serif;
   }
 
-#mymain {
+#oversigt {
   height:300px;
   background-color:#FFF;
 }
