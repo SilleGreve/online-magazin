@@ -1,0 +1,3 @@
+User-agent: * Allow: /
+
+https://www.xml-sitemaps.com/download/online-magazine.sgreve.dk-be8882d29/sitemap.xml?view=1 
